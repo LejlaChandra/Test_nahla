@@ -15,9 +15,9 @@ def test_login(driver):
     assert home_page.selected_jacket() == "Sauce Labs Fleece Jacket"
     home_page.checkout_button
     home_page.checkout_page
-    home_page.first_name("lejla")
+    #home_page.first_name("lejla")
     #home_page.last_name("romano")
-    #home_page.checkout_info("lejla", "romano", "72000")
+    #home_page.zipcode("72000")
     #home_page.overview_page
     #assert home_page.overview_backpack() == "Sauce Labs Backpack"
     #assert home_page.overview_jacket() == "Sauce Labs Fleece Jacket"
